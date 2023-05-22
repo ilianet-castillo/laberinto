@@ -10,4 +10,11 @@ public class CaminoTest {
         Camino c1 = new Camino();
         Assertions.assertEquals(7, c1.hacer());
     }
+
+    @Test
+    void shouldCaminar(){
+        Camino c2 = new Camino();
+        Assertions.assertTrue(c2.caminar(4));
+        Assertions.assertFalse(c2.caminar(3));
+    }
 }
