@@ -15,11 +15,11 @@ public class Camino {
             return false;
     }
 
-    public double avgSteps(int numSteps, int totalSteps){
-        return (double) numSteps /totalSteps;
+    public double avgSteps(int numSteps, int totalSteps) {
+        return (double) numSteps / totalSteps;
     }
 
-    public int siguientePaso(int n){
-    return n+1;
+    public int siguientePaso(int n) {
+        return n + 1;
     }
 }
