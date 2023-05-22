@@ -16,4 +16,8 @@ public class Camino {
 
 
     }
+
+    public int siguientePaso(int n){
+    return n+1;
+    }
 }

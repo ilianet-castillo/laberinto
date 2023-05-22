@@ -17,4 +17,5 @@ public class CaminoTest {
         Assertions.assertTrue(c2.caminar(4));
         Assertions.assertFalse(c2.caminar(3));
     }
+
 }
