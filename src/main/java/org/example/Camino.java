@@ -13,7 +13,9 @@ public class Camino {
             return true;
         else
             return false;
+    }
 
-
+    public double avgSteps(int numSteps, int totalSteps){
+        return (double) numSteps /totalSteps;
     }
 }
