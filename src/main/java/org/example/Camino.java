@@ -1,7 +1,5 @@
 package org.example;
 
-import javax.swing.*;
-
 public class Camino {
 
     public int hacer() {
